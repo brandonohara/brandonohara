@@ -1,0 +1,25 @@
+#resume {
+    .resume-label h3 {
+        margin: 5px 0px 30px;
+        text-align: center;
+    }
+    .resume-items {
+        padding: 0px 30px;
+    }
+    .resume-items .row {
+        margin-bottom: 30px;
+    }
+    .btn-primary {
+        margin-top: 30px;
+    }
+}
+@media(min-width: $screen-sm){
+    #resume {
+        .resume-items {
+            padding: 0px;
+        }
+        .resume-items .row {
+            margin-bottom: 0px;
+        }
+    }
+}

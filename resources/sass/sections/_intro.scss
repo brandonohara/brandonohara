@@ -1,0 +1,29 @@
+#intro {
+    padding: 160px 30px 10px;
+    text-align: center;
+    background-color: $color-black;
+    background-image: url(../images/intro-glacier.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    h2 {
+        margin: 0px;
+        font-size: 14px;
+        color: $color-white;
+    }
+}
+@media(min-width: 991px){
+    #intro {
+        padding: 500px 0 20px 0;
+
+        h1 {
+            margin: 0px 0px 10px;
+            font-size: 40px;
+            color: $color-white;
+        }
+        h2 {
+            font-size: 24px;
+        }
+    }
+}

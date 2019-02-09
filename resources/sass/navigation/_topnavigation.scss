@@ -1,0 +1,104 @@
+/* ---------------------------------------------- /*
+ * Navigation
+/* ---------------------------------------------- */
+
+.header {
+    border-bottom: 1px solid $color-lt-grey;
+    position: relative;
+    width: 100%;
+    z-index: 998;
+}
+
+.navbar-custom {
+    margin: 0;
+    padding-top: 20px;
+    font-family: $font-roboto, sans-serif;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 0;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+
+    .navbar-brand {
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 3px;
+        color: #FFF;
+    }
+    .navbar-nav > li > a,
+    .navbar-nav .dropdown-menu > li > a {
+        font-size: 11px;
+        letter-spacing: 3px;
+        color: #FFF;
+    }
+    .nav li.active,
+    .nav li a:hover,
+    .nav li a:focus,
+    .navbar-nav > li.active a {
+        background: none;
+        outline: 0;
+        color: $color-primary;
+    }
+    .dropdown-menu {
+        padding: 0;
+        border: 0;
+        border-top: 2px solid $color-primary;
+        border-radius: 0;
+    }
+    .dropdown-menu > li > a {
+        padding: 10px 20px;
+    }
+    .navbar-toggle .icon-bar {
+        background: $color-white;
+        width: 22px;
+        transition: all 0.2s;
+    }
+    .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+    }
+    .middle-bar {
+        opacity: 0;
+    }
+    .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+    }
+    .navbar-collapse.in {
+        margin-top: 10px;
+        background-color: #fff;
+
+        .navbar-nav > li > a {
+            color: $color-black;
+        }
+    }
+}
+.navbar-color {
+    padding-top: 0px;
+    background: $color-white;
+    border-bottom: 1px solid $color-primary;
+
+    .navbar-brand,
+    .navbar-nav > li > a,
+    .navbar-nav .dropdown-menu > li > a {
+        color: $color-black;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: $color-black;
+    }
+    .navbar-collapse.in {
+        margin-top: 0px;
+    }
+}
+
+.navbar-toggle.collapsed {
+    .top-bar, .bottom-bar {
+        transform: rotate(0);
+    }
+    .middle-bar {
+        opacity: 1;
+    }
+}

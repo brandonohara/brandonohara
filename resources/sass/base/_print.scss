@@ -1,0 +1,57 @@
+@media print{
+    #header, #intro, #development, #plugins, #callout, #about, #contact, #footer, .scroll-up a, .btn {
+        display:none !important;
+    }
+    .wow {
+        display: block !important;
+        visibility: visible !important;
+    }
+    .module {
+        padding: 5px 0px;
+        .module-header {
+            margin: 10px 0 10px;
+        }
+        .module-seperator {
+            padding: 0px 10px;
+        }
+        .module-title {
+            margin: 0px 0px 20px;
+        }
+        .module-subtitle {
+            margin: 0px;
+            padding:0px;
+        }
+    }
+    .resume-label {
+        float: left;
+        width: 25% !important;
+    }
+    .resume-items {
+        float: left;
+        width: 75% !important;
+
+        .row {
+            margin-bottom: 0px !important;
+        }
+    }
+    .resume-place {
+        margin: 5px 0px 15px;
+        h4 {
+            display: inline-block;
+            padding: 0px 10px 0px 0px;
+        }
+    }
+    #resume-development-tools, #resume-projects {
+        .row {
+            width: 50%;
+            float: left;
+            margin: 0px;
+
+            .col-md-8, .col-md-4 {
+                width: 100%;
+                padding: 0px 15px 0px 0px;
+            }
+        }
+    }
+    //#resume-past-experience {page-break-after: always;}
+}

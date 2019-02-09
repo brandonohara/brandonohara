@@ -1,0 +1,104 @@
+#callout {
+    padding: 25px 0;
+    color: $color-primary;
+    text-align: center;
+    background: $color-black;
+
+
+    .callout-title {
+        margin: 5px 0px 0px;
+        font-size: 20px;
+        color: $color-white;
+        letter-spacing: 1px;
+    }
+    .callout-description {
+        margin: 0px;
+        font-style: italic;
+    }
+    .callout-social {
+        margin: 0px;
+        list-style: inline-block;
+        text-align: center;
+
+        li {
+            display: inline;
+        }
+        li a {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin: 0px 4px;
+            font-size: 24px;
+            color: $color-white;
+        }
+        li a:hover {
+            color: $color-primary;
+        }
+    }
+}
+@media(min-width: $screen-sm){
+    #callout {
+        text-align: left;
+        .callout-social {
+            text-align: right;
+            li a {
+                width: 30px;
+                height: 30px;
+                margin: 0px 10px;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.side-image {
+    position: absolute;
+    background: url(../images/about.jpg) scroll center no-repeat;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    height: 100%;
+}
+.side-image-text {
+    padding: 50px 30px 50px;
+    background: #fff;
+
+    .iconboxleft {
+        position: relative;
+        margin: 0 0 50px;
+    }
+    .iconboxleft-title {
+        padding: 0;
+    }
+    .icon {
+        margin: 10px 5px 0px 0px;
+        font-size: 2.5em;
+    }
+}
+@media(min-width: 991px){
+    .side-image-text {
+        padding: 100px 60px 50px;
+    }
+}
+/* ---------------------------------------------- /*
+ * Media
+/* ---------------------------------------------- */
+
+@media (max-width: 991px) {
+
+    .side-image {
+        position: relative;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .side-image-text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
