@@ -11327,6 +11327,8 @@ textarea.form-control {
 
 @media (min-width: 768px) {
   .plugin {
+    display: flex;
+    flex-direction: column;
     min-height: 180px;
   }
 
