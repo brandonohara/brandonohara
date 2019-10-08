@@ -1,6 +1,6 @@
 <ul class="{{ isset($class) ? $class : '' }}">
     <li>
-        <a href="https://www.facebook.com/brandon.ohara" class="wow fadeInUp" data-wow-delay="1s">
+        <a href="https://www.facebook.com/brandon.ohara" class="wow fadeInUp" data-wow-delay=".1s">
             <span class="icon icon-facebook"></span>
         </a>
     </li>
