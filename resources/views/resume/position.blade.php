@@ -10,13 +10,13 @@
         <div class="col-md-4 col-sm-4 resume-place">
             @if($position->location)
                 <h4>
-                    <span class="icon icon-suitcase"></span> 
+                    <span class="fal fa-fw fa-suitcase"></span> 
                     {{ $position->location}}
                 </h4>
             @endif
             @if($position->date)
                 <h4>
-                    <span class="icon icon-calendar"></span>
+                    <span class="fal fa-fw fa-calendar"></span>
                     {{ $position->date}}
                 </h4>
             @endif

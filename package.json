@@ -23,6 +23,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-pro": "^5.11.2",
         "bootstrap": "^4.0.0",
         "wow.js": "^1.2.2"
     }

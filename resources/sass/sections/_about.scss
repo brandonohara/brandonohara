@@ -67,10 +67,12 @@
     }
     .iconboxleft-title {
         padding: 0;
-    }
-    .icon {
-        margin: 10px 5px 0px 0px;
-        font-size: 2.5em;
+        display: flex;
+        align-items: center;
+        .fal {
+            margin-right: 15px;
+            font-size: 2.5em;
+        }
     }
 }
 @media(min-width: 991px){

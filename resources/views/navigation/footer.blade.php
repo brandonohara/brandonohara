@@ -6,6 +6,6 @@
 
 <div class="scroll-up">
     <a href="#intro" data-target="#intro" class="scroll-to">
-        <span class="icon icon-double-up"></span>
+        <span class="fal fa-chevron-double-up"></span>
     </a>
 </div>

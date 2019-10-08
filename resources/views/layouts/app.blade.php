@@ -12,10 +12,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <!-- Styles -->
-    <link href="css/animate.css" rel="stylesheet" />
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    <link href="https://file.myfontastic.com/pYeegn2higGJFinpKiriRf/icons.css" rel="stylesheet">
 </head>
 <body>
     <div id="app">

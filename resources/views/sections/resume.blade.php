@@ -145,7 +145,7 @@
         <div class="row">
             <div class="col-md-6 offset-md-3 text-center">
                 <a onclick="window.print()" class="btn btn-primary">
-                    <span class="icon icon-download"></span> Download CV
+                    <span class="fal fa-fw fa-download"></span> Download CV
                 </a>
             </div>
         </div>

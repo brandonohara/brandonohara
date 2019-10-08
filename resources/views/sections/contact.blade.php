@@ -28,7 +28,7 @@
 
                     <div class="form-group wow fadeInUp" data-wow-delay=".3s">
                         <button class="btn btn-primary btn-responsive">
-                            Send It!
+                            <span class="fal fa-fw fa-paper-plane"></span> Send It!
                         </button>
                     </div>
                 </form>
