@@ -3,7 +3,7 @@
 @section('content')
 
 <section id="intro">
-    <h1 class="hidden-xs hidden-sm">HELLO, I'M BRANDON O'HARA</h1>
+    <h1 class="d-none d-md-inline-block">HELLO, I'M BRANDON O'HARA</h1>
     <h2>LARAVEL ENTHUSIAST. BEER DRINKER. TERRIBLE GOLFER.</h2>
 </section>
 
