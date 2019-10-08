@@ -21,7 +21,7 @@
                     </div>
                     <div class="iconbox-text">
                         <h3 class="iconbox-title">Front-End Development</h3>
-                        <p>HTML5 & CSS3, JS ES2015, AngularJS, Vue.JS, Sass & Less, jQuery, Bootstrap</p>
+                        <p>{{ __('skills.frontend') }}</p>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                     </div>
                     <div class="iconbox-text">
                         <h3 class="iconbox-title">Back-End Development</h3>
-                        <p>PHP, Laravel, Codeigniter, PHPUnit, MySQL, PostgreSQL, Redis</p>
+                        <p>{{ __('skills.backend') }}</p>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="iconbox-text">
                         <h3 class="iconbox-title">Tools & Automation</h3>
-                        <p>Vagrant, Grunt, Gulp, Webpack, Git, Yeoman, Bower, Composer</p>
+                        <p>{{ __('skills.tools') }}</p>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="iconbox-text">
                         <h3 class="iconbox-title">CMS & Software</h3>
-                        <p>ExpressionEngine, Drupal 8, Magento, Wordpress, Photoshop, Sketch</p>
+                        <p>{{ __('skills.cms') }}</p>
                     </div>
                 </div>
             </div>

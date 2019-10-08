@@ -61,19 +61,19 @@
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <h4>Front-End Development</h4>
-                            <p>HTML5 & CSS3, JS ES2015, AngularJS, Vue.JS, Sass & Less, jQuery, Bootstrap</p>
+                            <p>{{ __('skills.frontend') }}</p>
                         </div>
                         <div class="col-xs-12 col-md-6">
                             <h4>Back-End Development</h4>
-                            <p>PHP, Laravel, Codeigniter, PHPUnit, MySQL, PostgreSQL, Redis, Python</p>
+                            <p>{{ __('skills.backend') }}</p>
                         </div>
                         <div class="col-xs-12 col-md-6">
                             <h4>Tools & Automation</h4>
-                            <p>Webpack, Laravel Mix, Gulp, Git, Composer, CircleCI, Vagrant</p>
+                            <p>{{ __('skills.tools') }}</p>
                         </div>
                         <div class="col-xs-12 col-md-6">
                             <h4>CMS & Software</h4>
-                            <p>ExpressionEngine, Craft CMS, Drupal 8, Magento, Wordpress, Photoshop</p>
+                            <p>{{ __('skills.cms') }}</p>
                         </div>
                     </div>
 

@@ -6,15 +6,11 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateResumesTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
         Schema::create('resumes', function (Blueprint $table) {
             $table->increments('id');
+            $table->unsignedInteger('prior')->index()->nullable();
             $table->string('group');
             $table->string('title');
             $table->string('description');
@@ -28,11 +24,6 @@ class CreateResumesTable extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('resumes');
