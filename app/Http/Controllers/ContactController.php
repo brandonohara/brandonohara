@@ -15,7 +15,11 @@ class ContactController extends Controller
 
         Mail::to('brandon@brandonohara.com')->send($form);
         
-        flash()->success("Thanks for contacting me, I'll get back to you as soon as possible.");
+        flash()->overlay(
+            "Thanks for contacting me, I'll get back to you as soon as possible.", 
+            "Contact Form Submitted"
+        );
+        
         return back();
     }
 }

@@ -18,6 +18,8 @@
 </head>
 <body>
     <div id="app">
+        @include('flash::message')
+
         @include('navigation.topnavigation')
 
         @yield('content')

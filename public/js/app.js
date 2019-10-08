@@ -49900,9 +49900,11 @@ __webpack_require__.r(__webpack_exports__);
 
 (function ($) {
   $(document).ready(function () {
+    $('#flash-overlay-modal').modal();
     /* ---------------------------------------------- /*
      * Navbar
     /* ---------------------------------------------- */
+
     var navbar = $('.navbar');
     var navHeight = navbar.outerHeight(true);
     $(window).scroll(function () {

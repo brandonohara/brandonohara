@@ -1,9 +1,10 @@
 @component('mail::message')
 # Contact Form Submitted
 
-Name: {{ $name}}
-Email: {{ $email }}
-Message
+*Name:* {{ $name}}
+
+*Email:* {{ $email }}
+
 {{ $message }}
 
 Thanks,<br>
