@@ -91,9 +91,9 @@
                             <h4>Trak Software Laravel Application</h4>
                             <p class="visible-print">https://docs.trak.io</p>
                             <p class="no-margin">
-                                <span class="icon icon-suitcase"></span> Trak Software
+                                <span class="fal fa-fw fa-suitcase"></span> Trak Software
                                 <span class="margin-right margin-left">|</span>
-                                <span class="icon icon-calendar"></span> 2015 - Present
+                                <span class="fal fa-fw fa-calendar"></span> 2015 - Present
                             </p>
                             <p class="flex-grow-1">Trak Sponsorship is a collaboration tool used by sports organizations who sell multi-asset corporate partnerships and businesses who buy them. The newest version of Trak Sponsorship is built on the Laravel PHP frameworkand AngularJS JavaScript package</p>
                             
@@ -102,9 +102,9 @@
                             <h4>OnMetric Business Analytics</h4>
                             <p class="visible-print">https://onmetric.com</p>
                             <p class="no-margin">
-                                <span class="icon icon-suitcase"></span> OnMetric
+                                <span class="fal fa-fw fa-suitcase"></span> OnMetric
                                 <span class="margin-right margin-left">|</span>
-                                <span class="icon icon-calendar"></span> 2018 - 2019
+                                <span class="fal fa-fw fa-calendar"></span> 2018 - 2019
                             </p>
                             <p class="flex-grow-1">A AngularJS front end application extending a business analytics tool. Components include integrations with Google Analytics, MailChimp, and custom Pyton API.</p>
                         </div>
@@ -112,9 +112,9 @@
                             <h4>XTERRA Planet</h4>
                             <p class="visible-print">https://xterraplanet.com</p>
                             <p class="no-margin">
-                                <span class="icon icon-suitcase"></span> Splashlab Social
+                                <span class="fal fa-fw fa-suitcase"></span> Splashlab Social
                                 <span class="margin-right margin-left">|</span>
-                                <span class="icon icon-calendar"></span> 2017 - 2018
+                                <span class="fal fa-fw fa-calendar"></span> 2017 - 2018
                             </p>
                             <p class="flex-grow-1">A Drupal / Magento website driving race registration and race gear ecommerce. Website has several integrations between Drupal and Magento to seemlessly serve content.</p>
                         </div>
@@ -122,9 +122,9 @@
                             <h4>Sara Jeanne Photography</h4>
                             <p class="visible-print">https://sarajeanne.com</p>
                             <p class="no-margin">
-                                <span class="icon icon-suitcase"></span> Brandon O'Hara LLC
+                                <span class="fal fa-fw fa-suitcase"></span> Brandon O'Hara LLC
                                 <span class="margin-right margin-left">|</span>
-                                <span class="icon icon-calendar"></span> 2015
+                                <span class="fal fa-fw fa-calendar"></span> 2015
                             </p>
                             <p class="flex-grow-1">An ExpressionEngine website with custom CodeIgniter plugins to integrate with MailChimp and Honeybook (CRM).</p>
                         </div>
