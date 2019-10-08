@@ -10,6 +10,7 @@
 
                 <form method="POST" action="{{ route('contact.store') }}" role="form">
                     @csrf
+                    @honeypot
                     
                     <div class="form-group wow fadeInUp">
                         <label class="sr-only" for="name">Name</label>
