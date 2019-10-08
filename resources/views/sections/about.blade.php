@@ -18,7 +18,7 @@
                     <div class="iconboxleft">
                         <div class="iconboxleft-text">
                             <h3 class="iconboxleft-title"><span class="fal fa-golf-ball"></span> Terrible Golfer</h3>
-                            <p class="iconboxleft-desc">I constantly fall between feeling like I could win the Masters and never seen a golf club.</p>
+                            <p class="iconboxleft-desc">I constantly fall between feeling like I could win the Masters and having never seen a golf club.</p>
                         </div>
                     </div>
                 </div>
