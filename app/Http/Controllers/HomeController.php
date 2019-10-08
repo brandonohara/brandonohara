@@ -8,7 +8,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $resume = Resume::all();
+        $resume = Resume::with('previous')->whereNull('prior')->get();
+        
         return view('home', compact('resume'));
     }
 }
