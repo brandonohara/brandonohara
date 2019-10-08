@@ -1,7 +1,7 @@
 <footer id="footer">
     @include('navigation.social-media', ['class' => 'social-links'])
     
-    <p class="copyright">&copy; {{ date('Y') }} Brandon O'Hara LLC</p>
+    <p class="text-muted copyright">&copy; {{ date('Y') }} Brandon O'Hara LLC</p>
 </footer>
 
 <div class="scroll-up">
