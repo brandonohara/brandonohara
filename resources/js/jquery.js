@@ -2,14 +2,13 @@
 
     $(document).ready(function() {
 
-        $('.year').html((new Date).getFullYear());
-
         /* ---------------------------------------------- /*
          * Navbar
         /* ---------------------------------------------- */
 
         var navbar = $('.navbar');
-        var navHeight = navbar.height();
+        var navHeight = navbar.outerHeight(true);
+
 
         $(window).scroll(function() {
             if($(this).scrollTop() >= navHeight) {
@@ -24,10 +23,10 @@
          * Animated scrolling / Scroll Up
         /* ---------------------------------------------- */
 
-        $('a[href*=#]').bind("click", function(e){
-            var anchor = $(this);
+        $('.scroll-to').bind("click", function(e){
+            var anchor = $(this).data('target');
             $('html, body').stop().animate({
-                scrollTop: $(anchor.attr('href')).offset().top - navHeight
+                scrollTop: $(anchor).offset().top - navHeight
             }, 1000);
             e.preventDefault();
         });
