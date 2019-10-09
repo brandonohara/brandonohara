@@ -92,7 +92,7 @@
                                 <span class="margin-right margin-left">|</span>
                                 <span class="fal fa-fw fa-calendar"></span> 2015 - Present
                             </p>
-                            <p class="flex-grow-1">Trak Sponsorship is a collaboration tool used by sports organizations who sell multi-asset corporate partnerships and businesses who buy them. The newest version of Trak Sponsorship is built on the Laravel PHP frameworkand AngularJS JavaScript package</p>
+                            <p class="flex-grow-1">Trak Sponsorship is a collaboration tool used by sports organizations who sell multi-asset corporate partnerships and businesses who buy them. The newest version of Trak Sponsorship is built on the Laravel PHP framework and AngularJS JavaScript package.</p>
                             
                         </div>
                         <div class="col-xs-12 col-md-6 d-flex flex-column">
@@ -103,7 +103,7 @@
                                 <span class="margin-right margin-left">|</span>
                                 <span class="fal fa-fw fa-calendar"></span> 2018 - 2019
                             </p>
-                            <p class="flex-grow-1">A AngularJS front end application extending a business analytics tool. Components include integrations with Google Analytics, MailChimp, and custom Pyton API.</p>
+                            <p class="flex-grow-1">A AngularJS front end application extending a business analytics tool. Components include integrations with Google Analytics, MailChimp, and communicating with a custom Python API.</p>
                         </div>
                         <div class="col-xs-12 col-md-6 d-flex flex-column">
                             <h4>XTERRA Planet</h4>
@@ -123,7 +123,7 @@
                                 <span class="margin-right margin-left">|</span>
                                 <span class="fal fa-fw fa-calendar"></span> 2017
                             </p>
-                            <p class="flex-grow-1">A Laravel Application built for HP's announcement of aquisition on Aruba Networks. The application provided lead generation by funneling user inforamtion after completing the conference quiz.</p>
+                            <p class="flex-grow-1">A Laravel Application built for HP's announcement of acquisition on Aruba Networks. The application provided lead generation by funneling user inforamtion after completing the conference quiz.</p>
                         </div>
                     </div>
                 </div>
