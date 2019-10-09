@@ -36,11 +36,8 @@
         <div class="row visible-print">
             <div class="col-sm-6 offset-sm-3">
                 <div class="module-header wow fadeInUp">
-                    <h2 class="module-title">
-                        <span class="hidden-print">Resume</span>
-                        <span class="visible-print">Brandon O'Hara</span>
-                    </h2>
-                    <p class="module-subtitle visible-print">
+                    <h2 class="module-title">Brandon O'Hara</span></h2>
+                    <p class="module-subtitle">
                         (406) 850-3117
                         <span class="module-seperator">|</span>
                         Billings, MT
@@ -89,7 +86,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-md-6 d-flex flex-column">
                             <h4>Trak Software Laravel Application</h4>
-                            <p class="visible-print">https://docs.trak.io</p>
+                            <a href="https://docs.trak.io" target="_blank">https://docs.trak.io</a>
                             <p class="no-margin">
                                 <span class="fal fa-fw fa-suitcase"></span> Trak Software
                                 <span class="margin-right margin-left">|</span>
@@ -100,7 +97,7 @@
                         </div>
                         <div class="col-xs-12 col-md-6 d-flex flex-column">
                             <h4>OnMetric Business Analytics</h4>
-                            <p class="visible-print">https://onmetric.com</p>
+                            <a href="https://onmetric.com" target="_blank">https://onmetric.com</a>
                             <p class="no-margin">
                                 <span class="fal fa-fw fa-suitcase"></span> OnMetric
                                 <span class="margin-right margin-left">|</span>
@@ -110,7 +107,7 @@
                         </div>
                         <div class="col-xs-12 col-md-6 d-flex flex-column">
                             <h4>XTERRA Planet</h4>
-                            <p class="visible-print">https://xterraplanet.com</p>
+                            <a href="https://xterraplanet.com" target="_blank">https://xterraplanet.com</a>
                             <p class="no-margin">
                                 <span class="fal fa-fw fa-suitcase"></span> Splashlab Social
                                 <span class="margin-right margin-left">|</span>
@@ -119,14 +116,14 @@
                             <p class="flex-grow-1">A Drupal / Magento website driving race registration and race gear ecommerce. Website has several integrations between Drupal and Magento to seemlessly serve content.</p>
                         </div>
                         <div class="col-xs-12 col-md-6 d-flex flex-column">
-                            <h4>Sara Jeanne Photography</h4>
-                            <p class="visible-print">https://sarajeanne.com</p>
+                            <h4>Aruba Networks</h4>
+                            <a href="https://www.liquidagency.com/work/aruba-titans-of-tomorrow/" target="_blank">https://www.liquidagency.com/work/aruba-titans-of-tomorrow/</a>
                             <p class="no-margin">
-                                <span class="fal fa-fw fa-suitcase"></span> Brandon O'Hara LLC
+                                <span class="fal fa-fw fa-suitcase"></span> Splashlab Social
                                 <span class="margin-right margin-left">|</span>
-                                <span class="fal fa-fw fa-calendar"></span> 2015
+                                <span class="fal fa-fw fa-calendar"></span> 2017
                             </p>
-                            <p class="flex-grow-1">An ExpressionEngine website with custom CodeIgniter plugins to integrate with MailChimp and Honeybook (CRM).</p>
+                            <p class="flex-grow-1">A Laravel Application built for HP's announcement of aquisition on Aruba Networks. The application provided lead generation by funneling user inforamtion after completing the conference quiz.</p>
                         </div>
                     </div>
                 </div>
