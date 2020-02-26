@@ -20,6 +20,12 @@
                     {{ $position->date}}
                 </h4>
             @endif
+            @if($position->city)
+                <h4>
+                    <span class="fal fa-fw fa-map-marker-alt"></span>
+                    {{ $position->city}}
+                </h4>
+            @endif
         </div>
     </div>
 
