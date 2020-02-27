@@ -20,15 +20,15 @@
         visibility: visible !important;
     }
     .module {
-        padding: 5px 0px;
+        padding: 0px 0px;
         .module-header {
-            margin: 10px 0 10px;
+            margin: 10px 0 0px;
         }
         .module-seperator {
             padding: 0px 10px;
         }
         .module-title {
-            margin: 30px 0px 20px;
+            margin: 30px 0px 10px;
         }
         .module-subtitle {
             margin: 0px;
@@ -50,8 +50,8 @@
     #resume-extended {
         display: block;
     }
-    #resume > .container > .row:nth-child(4) {
-        page-break-after: always;
+    #resume > .container > .row:nth-child(5) {
+        page-break-before: always;
     }
     .resume-place {
         margin: 5px 0px 15px;
