@@ -17,18 +17,6 @@
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <div class="iconbox">
                     <div class="iconbox-icon">
-                        <span class="fal fa-desktop-alt"></span>
-                    </div>
-                    <div class="iconbox-text">
-                        <h3 class="iconbox-title">Front-End Development</h3>
-                        <p>{{ __('skills.frontend') }}</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <div class="iconbox">
-                    <div class="iconbox-icon">
                         <span class="fal fa-code"></span>
                     </div>
                     <div class="iconbox-text">
@@ -41,10 +29,22 @@
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <div class="iconbox">
                     <div class="iconbox-icon">
-                        <span class="fal fa-wrench"></span>
+                        <span class="fal fa-desktop-alt"></span>
                     </div>
                     <div class="iconbox-text">
-                        <h3 class="iconbox-title">Tools & Automation</h3>
+                        <h3 class="iconbox-title">Front-End Development</h3>
+                        <p>{{ __('skills.frontend') }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="iconbox">
+                    <div class="iconbox-icon">
+                        <span class="fal fa-network-wired"></span>
+                    </div>
+                    <div class="iconbox-text">
+                        <h3 class="iconbox-title">Infrastructure & DevOps</h3>
                         <p>{{ __('skills.tools') }}</p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                         <span class="fal fa-cogs"></span>
                     </div>
                     <div class="iconbox-text">
-                        <h3 class="iconbox-title">CMS & Software</h3>
+                        <h3 class="iconbox-title">Content Management</h3>
                         <p>{{ __('skills.cms') }}</p>
                     </div>
                 </div>

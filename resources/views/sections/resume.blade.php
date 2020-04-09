@@ -57,19 +57,19 @@
                 <div class="col-md-9 resume-items">
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
-                            <h4>Front-End Development</h4>
-                            <p>{{ __('skills.frontend') }}</p>
-                        </div>
-                        <div class="col-xs-12 col-md-6">
                             <h4>Back-End Development</h4>
                             <p>{{ __('skills.backend') }}</p>
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <h4>Tools & Automation</h4>
+                            <h4>Front-End Development</h4>
+                            <p>{{ __('skills.frontend') }}</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <h4>Infrastructure & DevOps</h4>
                             <p>{{ __('skills.tools') }}</p>
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <h4>CMS & Software</h4>
+                            <h4>Content Management</h4>
                             <p>{{ __('skills.cms') }}</p>
                         </div>
                     </div>
