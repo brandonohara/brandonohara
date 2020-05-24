@@ -1,5 +1,7 @@
 @extends('layouts.app', [
-    'navigation' => 'static'
+    'navigation' => 'static',
+    'title' => $article->title,
+    'description' => $article->excerpt
 ])
 
 @section('content')

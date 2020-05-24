@@ -9,9 +9,16 @@ class ArticlesController extends Controller
 {
     public function index(ArticleTag $tag = null)
     {
-        $articles = Article::live()->orderBy('publish_date', 'desc')->paginate(10);
+        $query = Article::live()->orderBy('publish_date', 'desc');
+
+        if ($tag) {
+            $query = $query->join('wink_posts_tags', 'wink_posts.id', '=', 'wink_posts_tags.post_id')
+                                    ->where('wink_posts_tags.tag_id', $tag->id);
+        }
+
+        $articles = $query->paginate(10);
         
-        return view('articles.index', compact('articles'));
+        return view('articles.index', compact('articles', 'tag'));
     }
 
     public function show(Article $article)

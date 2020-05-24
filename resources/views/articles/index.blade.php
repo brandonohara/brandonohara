@@ -1,5 +1,7 @@
 @extends('layouts.app', [
-    'navigation' => 'static'
+    'navigation' => 'static',
+    'title' => ($tag ? $tag->name . ' ' : '') . ' Articles',
+    'description' => 'Articles written about the developer experience, Laravel, and other web development topics.'
 ])
 
 @section('content')

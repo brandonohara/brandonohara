@@ -4,8 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Brandon O'Hara | Montana Web Developer</title>
-    <meta name="description" content="Montana based web developer specializing in creating web applications in Laravel, VueJS and Angular. Currently overseeing engineering at Trak Software as Chief Technology Officer, building a web application to simplify and streamline communication in sponsorship activation and management.">
+    <title> @isset($title) {{ $title }} | Brandon O'Hara @else Brandon O'Hara | Montana Web Developer @endisset </title>
+    @isset($description)
+        <meta name="description" content="{{ $description }}">
+    @else
+        <meta name="description" content="Montana based web developer specializing in creating web applications in Laravel, VueJS and Angular. Currently overseeing engineering at Trak Software as Chief Technology Officer, building a web application to simplify and streamline communication in sponsorship activation and management.">
+    @endisset
     <meta name="keywords" content="Laravel, Developer, Montana, Web Development, PHP">
     <link rel="icon" type="image/png" href="/favicon.png">
 
