@@ -6,7 +6,7 @@
                 <h2 class="callout-title">Let's Be Friends</h2>
                 <p class="callout-description">I mean, I'm a pretty cool dude.</p>
             </div>
-            @include('navigation.social-media', ['class' => 'col-md-8 col-lg-5 callout-social'])
+            @include('partials.social-media', ['class' => 'col-md-8 col-lg-5 callout-social'])
         </div>
 
     </div>

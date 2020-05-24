@@ -1,5 +1,5 @@
 <footer id="footer">
-    @include('navigation.social-media', ['class' => 'social-links'])
+    @include('partials.social-media', ['class' => 'social-links'])
     
     <p class="text-muted copyright">&copy; {{ date('Y') }} Brandon O'Hara LLC</p>
 </footer>

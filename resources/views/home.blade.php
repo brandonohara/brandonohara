@@ -6,9 +6,11 @@
 
 @include('sections.skills')
 
-@include('sections.plugins')
+@include('sections.articles')
 
 @include('sections.resume')
+
+@include('sections.plugins')
 
 @include('sections.social')
 

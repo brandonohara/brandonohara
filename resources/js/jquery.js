@@ -8,7 +8,7 @@
          * Navbar
         /* ---------------------------------------------- */
 
-        var navbar = $('.navbar');
+        var navbar = $('.navbar-animated');
         var navHeight = navbar.outerHeight(true);
 
 

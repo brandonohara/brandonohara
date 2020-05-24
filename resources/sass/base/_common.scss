@@ -11,6 +11,11 @@ button:focus {
     width: 100%;
 }
 
+.bar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .module {
     padding: 30px 0px;
 
@@ -49,6 +54,9 @@ button:focus {
                 display: none;
             }
         }
+    }
+    .module-slim {
+        padding: 15px 0px;
     }
 }
 
