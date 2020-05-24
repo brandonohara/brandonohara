@@ -4,17 +4,23 @@
 
 @section('content')
 
-<section id="articles" class="module">
+<section class="module module-slim module-gray">
     <div class="container">
 
         <div class="row">
             <div class="col-sm-6 offset-sm-3">
                 <div class="module-header wow fadeInUp">
+                    <div class="module-line"></div>
                     <h2 class="module-title">Recent Articles</h2>
                     <div class="module-line"></div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section id="articles" class="module">
+    <div class="container">
         
         <div class="row">
             @foreach($articles as $article)
@@ -31,6 +37,8 @@
 
     </div>
 </section>
+
+@include('sections.contact')
 
 
 @endsection
