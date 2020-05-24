@@ -13,6 +13,8 @@
     <meta name="keywords" content="Laravel, Developer, Montana, Web Development, PHP">
     <link rel="icon" type="image/png" href="/favicon.png">
 
+    @yield('metatags')
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 

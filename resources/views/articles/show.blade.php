@@ -4,6 +4,19 @@
     'description' => $article->excerpt
 ])
 
+
+@section('metatags')
+    <meta property="og:title" content="{{ $article->title }}">
+    <meta property="og:description" content="{{ $article->excerpt }}">
+    <meta property="og:image" content="https://brandonohara.com/images/brandon.ohara.rad.jpg">
+    <meta property="og:url" content="{{ route('articles.show', $article) }}">
+
+    <meta name="twitter:title" content="{{ $article->title }}">
+    <meta name="twitter:description" content="{{ $article->excerpt }}">
+    <meta name="twitter:image" content="https://brandonohara.com/images/brandon.ohara.rad.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+@endsection
+
 @section('content')
 
 <section class="module module-slim module-gray">
