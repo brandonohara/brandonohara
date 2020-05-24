@@ -121,3 +121,24 @@ a:hover {
     background-color: $color-white;
     border: 1px solid $color-primary;
 }
+
+.rich-text {
+    blockquote {
+        margin: 25px 0px;
+        padding: 10px 0px 10px 30px;
+        border-left: 3px solid $color-primary;
+
+        p {
+            font-style: italic;
+            font-size: 18px;
+        }
+
+        > *:last-child {
+            margin: 0px
+        }
+    }
+    p {
+        margin-bottom: 1.5rem;
+        font-size: 15px;
+    }
+}
