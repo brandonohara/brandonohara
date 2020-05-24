@@ -14,15 +14,17 @@
 
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body class="layout-{{ isset($navigation) ? $navigation : 'animated' }}">
     <div id="app">
         @include('flash::message')
 
-        @include('navigation.topnavigation')
+        @include('partials.topnavigation', [
+            'type' => isset($navigation) ? $navigation : 'animated'
+        ])
 
         @yield('content')
 
-        @include('navigation.footer')
+        @include('partials.footer')
     </div>
 
     <script src="{{ mix('js/app.js') }}" defer></script>
