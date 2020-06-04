@@ -1,11 +1,11 @@
 <div class="position">
     <div class="row">
         <div class="col-md-8 col-sm-8 resume-item">
-            <h4>{{ $position->title }}</h4>
-            @if (!$position->prior)
-                <h6 class="visible-print lowercase">{{ $position->url }}</h6>
-            @endif
-            <p>{{ $position->description }}</p>
+            <a href="{{ $position->url }}" target="_blank" class="hidden-print">
+                <h4>{{ $position->title }}</h4>
+            </a>
+            <h4 class="visible-print">{{ $position->title }}</h4>
+            <p>{!! $position->description !!}</p>
         </div>
         <div class="col-md-4 col-sm-4 resume-place">
             @if($position->location)
