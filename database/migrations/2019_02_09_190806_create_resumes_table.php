@@ -19,6 +19,7 @@ class CreateResumesTable extends Migration
             $table->string('date')->nullable();
             $table->string('url')->nullable();
             $table->unsignedInteger('order');
+            $table->boolean('active')->default(1);
             $table->boolean('visible')->default(1);
             $table->timestamps();
         });
