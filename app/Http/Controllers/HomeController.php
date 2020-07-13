@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $articles = Article::live()->orderBy('publish_date', 'desc')->limit(5)->get();
+        $articles = Article::live()->orderBy('publish_date', 'desc')->limit(3)->get();
 
         $resume = Resume::with('previous')->whereNull('prior')
                         ->where('active', true)
