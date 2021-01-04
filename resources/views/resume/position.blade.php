@@ -1,13 +1,13 @@
 <div class="position">
     <div class="row">
-        <div class="col-md-8 col-sm-8 resume-item">
+        <div class="col-md-9 col-sm-8 resume-item">
             <a href="{{ $position->url }}" target="_blank" class="hidden-print">
                 <h4>{{ $position->title }}</h4>
             </a>
             <h4 class="visible-print">{{ $position->title }}</h4>
             <p>{!! $position->description !!}</p>
         </div>
-        <div class="col-md-4 col-sm-4 resume-place">
+        <div class="col-md-3 col-sm-4 resume-place">
             @if($position->location)
                 <h4>
                     <span class="fal fa-fw fa-suitcase"></span> 
@@ -38,7 +38,7 @@
     @endif
 
     @if (!$position->prior)
-        <div class="row position">
+        <div class="row position hidden-print">
             <div class="col-md-8 col-sm-8 resume-item skills">
                 @if($position->skills)
                     <h6>

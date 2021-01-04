@@ -22,10 +22,10 @@
 
         @foreach($resume->where('visible', 1)->groupBy('group') as $group => $items)
             <div class="row">
-                <div class="col-md-3 resume-label text-right">
+                <div class="col-md-2 resume-label text-right">
                     <h3>{{ $group }}</h3>
                 </div>
-                <div class="col-md-9 resume-items">
+                <div class="col-md-10 resume-items">
                     @foreach($items as $item)
                         @include('resume.position', ['position' => $item])
                     @endforeach
@@ -52,10 +52,10 @@
         <div id="resume-extended" class="collapse">
             @foreach($resume->where('visible', 0)->groupBy('group') as $group => $items)
                 <div class="row">
-                    <div class="col-md-3 resume-label text-right">
+                    <div class="col-md-2 resume-label text-right">
                         <h3>{{ $group }}</h3>
                     </div>
-                    <div class="col-md-9 resume-items">
+                    <div class="col-md-10 resume-items">
                         @foreach($items as $item)
                             @include('resume.position', ['position' => $item])
                         @endforeach
@@ -64,10 +64,10 @@
             @endforeach
 
             <div class="row">
-                <div class="col-md-3 resume-label text-right">
+                <div class="col-md-2 resume-label text-right">
                     <h3>Development Skills</h3>
                 </div>
-                <div class="col-md-9 resume-items">
+                <div class="col-md-10 resume-items">
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <h4>Back-End Development</h4>

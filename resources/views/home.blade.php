@@ -10,7 +10,7 @@
 
 @include('sections.resume')
 
-@include('sections.plugins')
+{{-- @include('sections.plugins') --}}
 
 @include('sections.social')
 
