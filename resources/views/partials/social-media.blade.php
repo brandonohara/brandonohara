@@ -1,5 +1,5 @@
 <ul class="{{ isset($class) ? $class : '' }}">
-    <li>
+{{--     <li>
         <a href="https://www.facebook.com/brandon.ohara" target="_blank" class="wow fadeInUp" data-wow-delay=".1s">
             <span class="fab fa-fw fa-facebook"></span>
         </a>
@@ -8,7 +8,7 @@
         <a href="https://www.instagram.com/_brandonohara/" target="_blank" class="wow fadeInUp" data-wow-delay=".2s">
             <span class="fab fa-fw fa-instagram"></span>
         </a>
-    </li>
+    </li> --}}
     <li>
         <a href="https://twitter.com/_brandonohara" target="_blank" class="wow fadeInUp" data-wow-delay=".3s">
             <span class="fab fa-fw fa-twitter"></span>

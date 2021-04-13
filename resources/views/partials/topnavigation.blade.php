@@ -18,9 +18,6 @@
                     <a href="{{ route('home') }}#resume" data-target="#resume" class="nav-link scroll-to">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('home') }}#plugins" data-target="#plugins" class="nav-link scroll-to">Plugins</a>
-                </li>
-                <li class="nav-item">
                     <a href="{{ route('home') }}#about" data-target="#about" class="nav-link scroll-to">About</a>
                 </li>
                 <li class="nav-item">
