@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+html, body {
+    wdith: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1, p {
+    margin: 0px 0px 15px;
+}
+a {
+    color: #5b7c99;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0px;
+    padding: 30px;
+}
+img.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid #5b7c99;
+}
+.btn {
+    transition: all 0.2s ease-out;
+}
+.btn-outline {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #333;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid #333;
+}
+.btn-outline:hover {
+    color: white;
+    background-color: #5b7c99;
+    border-color: white;
+}
+.btn-icon {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+.btn-icon:hover {
+    border: 1px solid #5b7c99;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin: 5px 0px 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.flex {
+    flex: 1;
+    text-align: left;
+}
+.icons li {
+    display: inline-block;
+    padding-top: 5px;
+}
+.icons li a .fa {
+    font-size: 16px;
+    padding: 3px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        display: block;
+        text-align: center;
+    }
+}
